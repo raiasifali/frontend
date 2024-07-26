@@ -1,0 +1,49 @@
+.link {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    background: #FF3333;
+    color: white;
+}
+
+.link:hover svg * {
+    fill: white;
+}
+
+.activated {
+    background: #FF3333;
+    color: white;
+}
+
+.activated svg * {
+    fill: white;
+}
+
+.nav {
+    transition: all ease-in-out .5s;
+    position: absolute;
+    left: -300px;
+    top: 0;
+    display: flex;
+
+    width: 0px;
+}
+
+.nav * {
+    opacity: 0;
+}
+
+.mobile-nav {
+    width: 230px;
+    left: 0;
+    box-shadow: 1px 1px 19px 4px #00000026;
+}
+
+.mobile-nav * {
+    opacity: 1;
+}
